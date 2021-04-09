@@ -6,7 +6,7 @@
 	<title></title>
 	<style>
 		#fields {
-			color: brown;
+			color: black;
 			font-size: 150%;
 			font-weight: bold;
 			font-family: cocomat;
@@ -26,23 +26,16 @@
 			font-family: montserrat;
 		}
 
-		.alignleft{
-			float: left;
-			margin-right: 730px;
-		}
-		.alignright{
-			float: right;
-
-		}
+		
 
 		body{
-			background-image: url('images/bg3.jpg');
+			background-image: url('images/bg02.jpg');
 			background-size: cover;
 		}
 	</style>
 </head>
 <body>
-	<h1 style="text-align: center; color: orange; font-size: 50px; font-family: montserrat">Welcome to Binary Waiter</h1>
+	<h1 style="text-align: center; color: black; font-size: 50px; font-family: montserrat">Welcome to Book Shop</h1>
 	<div class="alignleft">
 	<br>
 	<h1 id="cush">Login as Customer</h1>
@@ -59,7 +52,7 @@
 
 <div lass="alignright">
 	<br>
-	<h1 id="resh">Login as Restaurant</h1>
+	<h1 id="resh">Login as Seller</h1>
 	<form action="verify_res.php" method="POST">
 		<p id="fields">
 		Email: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br>

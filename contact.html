@@ -5,7 +5,8 @@
 
     </head>
    
-   
+    <h1 style="text-align: center; color: black; font-size: 50px; font-family: montserrat">Contact Us</h1>
+    <button onclick="home()" style="font-size: 110%; color: black;" id="fields">HomePage</button>
    
    
    <section>
@@ -31,7 +32,7 @@
             </div>
     
             <div class="form-group">
-            <label for="massage">Massage (You can place order here by providing required info)</label>
+            <label for="massage">Massage (You can place order or ask for a study partner here by providing required info)</label>
             <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
             </div>
     
@@ -40,5 +41,11 @@
         </div>
         <div id="status"></div>
     </section>
+
+    <script>
+      function home(){
+        window.location.assign('http://localhost/bookshop/')
+      }
+    </script>
 
 </html>
