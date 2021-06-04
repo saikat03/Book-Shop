@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="contact.css" />
+
+    </head>
+   
+    <h1 style="text-align: center; color: black; font-size: 50px; font-family: montserrat">Contact Us</h1>
+    <button onclick="home()" style="font-size: 110%; color: black;" id="fields">HomePage</button>
+   
+   
+   <section>
+
+
+
+        <div class="container">
+        <form action="https://formspree.io/f/xgepdwol" method="POST" id="my-form">
+    
+            <div class="form-group">
+            <label for="firstName"> First Name</label>
+            <input type="text" id="firstName" name="firstName">
+            </div>
+    
+            <div class="form-group">
+            <label for="latsName">Last Name</label>
+            <input type="text" id="lastName" name="lastName">
+            </div>
+    
+            <div class="form-group">
+            <label for="email">Email (Insert your email address here)</label>
+            <input type="email" id="email" name="email">
+            </div>
+    
+            <div class="form-group">
+            <label for="massage">Massage (You can place order or ask for a study partner here by providing required info)</label>
+            <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+            </div>
+    
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+        <div id="status"></div>
+    </section>
+
+    <script>
+      function home(){
+        window.location.assign('user_index.php')
+      }
+    </script>
+
+</html>
